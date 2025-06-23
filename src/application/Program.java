@@ -39,6 +39,7 @@ public class Program {
                     .limit(5)
                     .toList();
 
+            System.out.println("\nCinco primeiras vendas de 2016 de maior preço médio");
             fiveFirstSalesWithHighestAverage.forEach(System.out::println);
 
             double loganTotalSales = sales.stream()
